@@ -1,4 +1,8 @@
 package practice10;
+
+
+//import practice10.java.User;
+
 /*
  * PTra10_01.java
  *   作成	LIKEIT	2017
@@ -26,11 +30,20 @@ public class PTra10_01 {
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
+//		User us;
 
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
+				User us=new User();
 
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
+				us.userId=12;
+				System.out.println(us.userId);
+//				System.out.println(us.userId);
+				us.userNm="rie";
+				System.out.println(us.userNm);
+//				System.out.println(us.userNm);
+
 
 	}
 }
