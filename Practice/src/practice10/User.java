@@ -21,18 +21,5 @@ public class User {
 
 //	User us;
 
-//	void greeting() {
-//		System.out.println("ユーザーIDは"+this.userId+"です");
-//
-//	};
-//	void greeNm() {System.out.println("ユーザーネームは"+this.userNm+"です");
-//
-//	};
-//	void Email() {
-//		System.out.println(this.mail);
-//	};
-//	void pass() {
-//		System.out.println(this.password);
-//	};
 
 }
