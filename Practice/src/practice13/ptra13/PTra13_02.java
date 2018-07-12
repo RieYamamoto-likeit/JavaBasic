@@ -6,6 +6,8 @@
  */
 package practice13.ptra13;
 
+import practice13.common.Hero;
+
 public class PTra13_02  {
 
 	/*

@@ -1,6 +1,4 @@
-package practice13.ptra13;
-
-import practice13.common.Character;
+package practice13.common;
 
 public class Hero extends Character {
 
