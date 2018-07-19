@@ -40,7 +40,7 @@ public class PTra13_07 {
 		 * ★ SuperHeroとSlimeを、どちらかが体力０になるまで戦わせます
 		 *
 		 * 	●SuperHeroの攻撃 -> ダメージ判定 -> Slimeの攻撃 -> ダメージ判定
-		 * 上記を繰り返し行います
+		 * 上記を繰り返し行います。
 		 */
 			while(true) {
 
