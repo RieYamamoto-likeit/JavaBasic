@@ -6,7 +6,7 @@
  */
 package practice14.common;
 
-public interface Course {
+public abstract interface Course {
 	String PREFIX = "【Eラーニング】";
 
 	/**
@@ -14,12 +14,13 @@ public interface Course {
 	 * 例）Java、DB基礎、IT基礎　など
 	 * @return	単元の名称
 	 */
-	String getCourseName();
+	public abstract String getCourseName();
+
 
 	/**
 	 * コースの単元を取得します
 	 * 例）プログラミングの書き方、式と演算子　など
 	 * @return
 	 */
-	String[] getCourseUnit();
+	public abstract  String[] getCourseUnit();
 }
