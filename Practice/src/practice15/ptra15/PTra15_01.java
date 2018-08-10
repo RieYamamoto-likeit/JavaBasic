@@ -19,8 +19,15 @@ public class PTra15_01 {
 
 		// ★ Course[	]の配列に jcourse と dbCourse のインスタンスを代入してください。
 
-		for (Course course : courseList) {
+		Course[] co= {
+				new JavaCourse(),
+				new DBCourse()
+		};
+
+		for (Course course : co) {
 			System.out.println(course.getCourseName());
+
+
 		}
 	}
 
