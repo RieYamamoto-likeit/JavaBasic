@@ -84,16 +84,16 @@ public class PTra18_04 {
 	        Collections.shuffle(FW);
 
 	        for(int i = 0;i < 1 ; i++ ) {
-	        	System.out.println(GK);
+	        	System.out.println(GK.get(i));
 	        }
 	        for(int i = 0;i < 4 ; i++) {
-	        	System.out.println(DF);
+	        	System.out.println(DF.get(i));
 	        }
 	        for(int i = 0;i < 4 ; i++) {
-	        	System.out.println(MF);
+	        	System.out.println(MF.get(i));
 	        }
 	        for(int i = 0;i < 2 ; i++) {
-	        	System.out.println(FW);
+	        	System.out.println(FW.get(i));
 	        }
 
 
