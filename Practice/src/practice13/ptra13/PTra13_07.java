@@ -21,6 +21,9 @@ public class PTra13_07 {
 
 		// ★ SuperHeroインスタンスとSlimeインスタンスを作成し、それぞれの名前に"勇者（装備あり）", "スライム"を設定してください
 		SuperHero sh=new SuperHero();
+		Slime sl = new Slime();
+		sh.setName("勇者（装備あり）");
+		sl.setName("スライム");
 
 		// ★ Itemクラスのインスタンスを作成し、("こんぼう", 4）をコンストラクタの引数にしてください
 		Item item=new Item();
@@ -34,8 +37,8 @@ public class PTra13_07 {
 
 		Slime slime=new Slime();
 
-		sh.setName("勇者");
-		slime.setName("スライム");
+//		sh.setName("勇者");
+//		slime.setName("スライム");
 		/*
 		 * ★ SuperHeroとSlimeを、どちらかが体力０になるまで戦わせます
 		 *

@@ -1,5 +1,6 @@
 package practice16;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 /*
  */
@@ -11,7 +12,9 @@ public class PTra16_01 {
         */
 
     	Date date = new Date();
-    	System.out.println(date);
+    	SimpleDateFormat f = new SimpleDateFormat("yyyy年MM月dd日");
+    	String dateStr = f.format(date);
+    	System.out.println(dateStr);
 
 
     }

@@ -29,6 +29,7 @@ public class PTra11_02 {
 		for(int i=0;i<books.length;i++) {
 			if(books[i].title.contains(input)) {
 				System.out.println(books[i].dispBookInfo());
+				System.out.println("------------------------------------");
 			}
 		}
 
